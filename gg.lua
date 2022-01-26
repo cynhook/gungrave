@@ -337,7 +337,7 @@ local L_29_ =
     loadstring(game:HttpGet("https://raw.githubusercontent.com/tayodevelup/secretinsomniac/main/12315", true))()
 local L_30_ = L_29_:CreateWatermark("GUNGRAVE🐍 |{fps}| {game}")
 
-local L_31_ = L_29_:CreateWindow("GUNGRAVE🐍", Vector2.new(492, 598), Enum.KeyCode.RightShift)
+local L_31_ = L_29_:CreateWindow("GUNGRAVE🐍", Vector2.new(492, 598), Enum.KeyCode.Insert)
 local L_32_ = L_31_:CreateTab("Rage")
 local L_33_ = L_31_:CreateTab("Legit")
 local L_34_ = L_31_:CreateTab("Misc")
@@ -400,7 +400,7 @@ L_36_:AddToggle("Square FOV", false, function()
 end)
 
 L_36_:AddToggle("Circle FOV", false, function()
-	circle.NumSides = 350
+	circle.NumSides = 25
 end)
 
 
@@ -418,7 +418,7 @@ end)
          
 
 
-local L_55_ =  L_39_:AddButton("CFrame Speed (N)", function()
+local L_55_ =  L_39_:AddButton("not ss proof speed(N)", function()
 	repeat
 		wait()
 	until game:IsLoaded()
